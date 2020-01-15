@@ -10,12 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_15_012119) do
+ActiveRecord::Schema.define(version: 2020_01_15_014819) do
 
   create_table "places", force: :cascade do |t|
     t.string "city"
     t.string "country"
-    t.boolean "visted"
     t.string "comment"
     t.integer "user_id"
     t.datetime "created_at", null: false
